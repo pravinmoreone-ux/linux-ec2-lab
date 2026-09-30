@@ -1,0 +1,23 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variable files
+*.tfvars
+
+# SSH private keys
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+
+# Vim swap files
+*.swp
+*.swo
